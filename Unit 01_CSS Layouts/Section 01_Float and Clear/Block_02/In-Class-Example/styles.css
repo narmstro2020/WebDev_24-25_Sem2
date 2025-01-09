@@ -1,0 +1,30 @@
+#red{
+    background-color:red;
+    opacity: 0.75;
+    width: 100px;
+    height: 150px;
+    float:left;
+
+}
+
+#green{
+    background-color:green;
+    opacity: 0.75;
+    width: 75px;
+    height: 200px;
+    float:right;
+
+}
+
+#blue{
+    background-color:blue;
+    width: 100px;
+    height: 75px;
+    clear:both;
+}
+
+
+
+#text{
+    background-color:yellow;
+}
