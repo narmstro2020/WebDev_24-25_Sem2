@@ -1,0 +1,33 @@
+#left-column{
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+
+
+}
+
+#middle-column{
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+#right-column{
+    float: left;
+    width: 32.8%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+#footer{
+    clear: both;
+    width: 99%;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
