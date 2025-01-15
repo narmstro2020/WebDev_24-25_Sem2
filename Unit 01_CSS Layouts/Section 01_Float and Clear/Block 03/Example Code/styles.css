@@ -14,7 +14,7 @@
     clear: both;
 }
 
-.box {
+.inline-container {
     border: 1px solid #333;
     float: left;
     width: var(--size);
@@ -22,7 +22,7 @@
     margin: 10px;
 }
 
-.box img{
+.inline-container img{
     object-fit: contain;
     width: 100%;
     height: 100%;
