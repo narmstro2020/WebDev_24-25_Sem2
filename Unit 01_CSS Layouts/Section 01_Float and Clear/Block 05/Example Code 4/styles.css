@@ -1,0 +1,10 @@
+div div{
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 500px;
+}

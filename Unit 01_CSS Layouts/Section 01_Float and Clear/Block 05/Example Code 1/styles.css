@@ -1,0 +1,15 @@
+:root {
+    --width: 100px;
+    --height: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: var(--width) var(--width) var(--width);
+    grid-template-rows: var(--height) var(--height) var(--height) var(--height);
+    gap: 10px;
+}
+
+div div{
+    background-color: lightgray;
+}
