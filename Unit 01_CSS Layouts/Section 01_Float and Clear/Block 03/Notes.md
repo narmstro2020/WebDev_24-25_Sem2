@@ -48,35 +48,36 @@ The modern clearfix method is almost identical but uses shorthand CSS for brevit
 ---
 
 ## Example: Without Clearfix
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Without Clearfix</title>
-  <style>
-    .container {
-      border: 2px solid #333;
-      background: #f0f0f0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Without Clearfix</title>
+    <style>
+        .container {
+            border: 2px solid #333;
+            background: #f0f0f0;
+        }
 
-    .box {
-      float: left;
-      width: 100px;
-      height: 100px;
-      margin: 10px;
-      background: #3498db;
-    }
-  </style>
+        .inline-container {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background: #3498db;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+<div class="container">
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
-  </div>
-  <p>This paragraph gets overlapped because the container does not wrap around the floated boxes.</p>
+</div>
+<p>This paragraph gets overlapped because the container does not wrap around the floated boxes.</p>
 </body>
 </html>
 ```
@@ -84,41 +85,42 @@ The modern clearfix method is almost identical but uses shorthand CSS for brevit
 ---
 
 ## Example: With Clearfix
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>With Clearfix</title>
-  <style>
-    .container {
-      border: 2px solid #333;
-      background: #f0f0f0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With Clearfix</title>
+    <style>
+        .container {
+            border: 2px solid #333;
+            background: #f0f0f0;
+        }
 
-    .container::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+        .container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
 
-    .box {
-      float: left;
-      width: 100px;
-      height: 100px;
-      margin: 10px;
-      background: #3498db;
-    }
-  </style>
+        .inline-container {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background: #3498db;
+        }
+    </style>
 </head>
 <body>
-  <div class="container clearfix">
+<div class="container clearfix">
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
-  </div>
-  <p>This paragraph no longer overlaps because clearfix fixes the container's height.</p>
+</div>
+<p>This paragraph no longer overlaps because clearfix fixes the container's height.</p>
 </body>
 </html>
 ```
