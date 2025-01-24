@@ -23,4 +23,4 @@
 
 ## Interactive, Ownership, Resonate
 
-- Assignments listed in Canvas under Modules for Unit 01, Section 03
+- [Assignment Description](AssignmentDescription.txt)

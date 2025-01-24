@@ -1,3 +1,5 @@
+Submit Github Repo to Unit 01: Section 03: Functions Assignment
+
 Do all of the following in the same JavaScript file.  
 You can create a simple html file that loads the script.js file, but everything will be printed to the console using console.log
 
