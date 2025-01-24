@@ -1,0 +1,13 @@
+Do all of the following in the same JavaScript file.  
+You can create a simple html file that loads the script.js file, but everything will be printed to the console using console.log
+
+Basic Function: Write a function square that returns the square of a number.
+
+Arrow Functions: Rewrite the following function as an arrow function:
+
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+
+Closures: Create a function that generates a counter starting from 5.
