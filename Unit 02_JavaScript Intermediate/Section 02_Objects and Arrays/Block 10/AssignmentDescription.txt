@@ -1,0 +1,11 @@
+Submit Github Repo to Unit 02: Section 02: Objects Assignment
+
+Assignment:  Object Manipulation
+
+Instructions:
+
+Create an object representing a book with properties: title, author, and year.
+Add a method getSummary that returns a string summarizing the book.
+Add a new property genre.
+Delete the year property.
+Print the updated object.
