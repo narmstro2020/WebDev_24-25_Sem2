@@ -1,10 +1,11 @@
-let count = 0;
-const counter = document.getElementById('counter');
-// TODO: you grab the button element
+const counterElement = document.getElementById("counter");
+let count = +counterElement.innerText;
+const increment = () => {
+    count++;
+    counterElement.innerText = count.toString();
+};
 
+const incrementButton = document.getElementById("increment");
+incrementButton.addEventListener("click", increment);
 
-// lambda function in the increment button's event listener
-// () => {
-//     count++;
-//     counter.innerHTML = count;
-// }
+// TODO: You do for decrement.  
