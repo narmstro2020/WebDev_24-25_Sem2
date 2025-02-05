@@ -1,0 +1,3 @@
+Assignment: Interactive Counter
+Create a counter that increments or decrements when respective buttons are clicked.
+Display the current count.
