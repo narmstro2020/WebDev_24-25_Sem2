@@ -1,7 +1,7 @@
 class ValidationError extends Error{
     constructor(message){
         super(message)
-        //TODO: assign the name for this object to "ValidationError"
+        //TODO: assign the name for this object to "ValidationError".  Hint Hint use the this. keyword
     }
 }
 
@@ -14,4 +14,6 @@ try{
     console.log(validateUsername("abc"));
 }catch(error){
     console.error(`${error.name}: ${error.message}`)
+}finally{
+    console.log("All done");
 }
