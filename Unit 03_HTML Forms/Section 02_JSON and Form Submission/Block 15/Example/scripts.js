@@ -1,17 +1,11 @@
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent default form submission
+let canvas = document.getElementById('myCanvas');
+let ctx = canvas.getContext('2d');
 
-    let formData = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value
-    };
-
-    fetch("http://localhost:3000/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
-    })
-        .then(response => response.json())
-        .then(data => alert("Server Response: " + data.message))
-        .catch(error => console.error("Error:", error));
-});
+ctx.fillRect(50, 150, 200, 100); // House body
+ctx.beginPath();
+ctx.moveTo(50, 150);
+ctx.lineTo(150, 50);
+ctx.lineTo(250, 150);
+ctx.closePath();
+ctx.stroke();
+ 
