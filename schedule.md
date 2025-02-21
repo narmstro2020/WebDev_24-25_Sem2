@@ -31,7 +31,7 @@
 |   24    |              Mon 3/17/2025              |     CSS Advanced Topics     |                                       Media Queries                                       |
 |   25    |              Wed 3/19/2025              |    Responsive Web Design    |                           Intro,<br/> Viewport,<br/> Grid View                            |
 |   26    |              Fri 3/21/2025              |    Responsive Web Design    |                          Media Queries,<br/> Images,<br/> Videos                          |
-|   27    |              Tue 4/08/2025              |    Responsive Web Design    |                                Frameworks,<br/> Templates                                 |
+|   27    |              Tue 4/08/2025              |    Responsive Web Design    |                       Frameworks,<br/> Templates, <br/> SCSS, Sass                        |
 |   28    |              Thu 4/10/2025              | JavaScript Advanced Topics  |                                            TBD                                            |
 |   29    |              Mon 4/14/2025              | JavaScript Advanced Topics  |                                            TBD                                            |
 |   30    |              Wed 4/16/2025              | JavaScript Advanced Topics  |                                            TBD                                            |
