@@ -1,0 +1,15 @@
+body {
+    /* TODO: make a linear gradient with whatever direction you
+        want and whatever colors you want using background: selector*/
+}
+
+.card {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    /* TODO: create a box-shadow of your choice,
+        specify offset-x, offset-y, blur-radius, color using rgba*/
+
+}
