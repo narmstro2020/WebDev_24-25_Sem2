@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px){
+    /* TODO:  style the nav class with a flex-direction of column and an align-items of center*/
+}
